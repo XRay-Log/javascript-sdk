@@ -4,9 +4,9 @@ XRay Log JavaScript SDK for logging and monitoring applications. This SDK provid
 
 <p align="center">
 <a href="https://github.com/XRay-Log/javascript-sdk/actions"><img src="https://github.com/XRay-Log/javascript-sdk/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://www.npmjs.com/package/@xray-log/javascript-sdk"><img src="https://img.shields.io/npm/dt/@xray-log/javascript-sdk" alt="Total Downloads"></a>
-<a href="https://www.npmjs.com/package/@xray-log/javascript-sdk"><img src="https://img.shields.io/npm/v/@xray-log/javascript-sdk" alt="Latest Stable Version"></a>
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/@xray-log/javascript-sdk" alt="License"></a>
+<a href="https://www.npmjs.com/package/@xraylog/javascript-sdk"><img src="https://img.shields.io/npm/dt/@xraylog/javascript-sdk" alt="Total Downloads"></a>
+<a href="https://www.npmjs.com/package/@xraylog/javascript-sdk"><img src="https://img.shields.io/npm/v/@xraylog/javascript-sdk" alt="Latest Stable Version"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/@xraylog/javascript-sdk" alt="License"></a>
 </p>
 
 ## Installation
@@ -14,7 +14,7 @@ XRay Log JavaScript SDK for logging and monitoring applications. This SDK provid
 You can install the package via npm:
 
 ```bash
-npm install --save-dev @xray-log/javascript-sdk
+npm install --save-dev @xraylog/javascript-sdk
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install --save-dev @xray-log/javascript-sdk
 ### Using Logger Class
 
 ```javascript
-import { XRayLogger } from '@xray-log/javascript-sdk';
+import { XRayLogger } from '@xraylog/javascript-sdk';
 
 // Initialize logger
 const logger = new XRayLogger('Your Project Name');
@@ -36,7 +36,7 @@ logger.debug({ userId: 1, status: 'active' });
 ### Using Helper Function
 
 ```javascript
-import { xray, setDefaultOptions } from '@xray-log/javascript-sdk';
+import { xray, setDefaultOptions } from '@xraylog/javascript-sdk';
 
 // Set project name (optional)
 setDefaultOptions({ project: 'My Project' });
