@@ -1,6 +1,5 @@
 node_modules
 dist
-package-lock.json
 examples
 .DS_Store
 .vscode
