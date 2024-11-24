@@ -14,7 +14,7 @@ XRay Log JavaScript SDK for logging and monitoring applications. This SDK provid
 You can install the package via npm:
 
 ```bash
-npm install @xray-log/javascript-sdk
+npm install --save-dev @xray-log/javascript-sdk
 ```
 
 ## Usage
