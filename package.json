@@ -1,6 +1,6 @@
 {
   "name": "@xraylog/javascript-sdk",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "description": "XRay Logger JavaScript SDK for real-time logging and debugging",
   "main": "src/index.js",
   "scripts": {
