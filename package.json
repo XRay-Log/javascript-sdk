@@ -1,0 +1,37 @@
+{
+  "name": "@xray-log/javascript-sdk",
+  "version": "1.0.0",
+  "description": "XRay Logger JavaScript SDK for real-time logging and debugging",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xRay-Log/javascript-sdk.git"
+  },
+  "keywords": [
+    "logging",
+    "debug",
+    "xray",
+    "real-time",
+    "monitoring",
+    "browser",
+    "node"
+  ],
+  "author": "xRay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xRay-Log/javascript-sdk/issues"
+  },
+  "homepage": "https://github.com/xRay-Log/javascript-sdk#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "browser": {
+    "node-fetch": false
+  }
+}
