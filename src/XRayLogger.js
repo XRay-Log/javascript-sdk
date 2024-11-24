@@ -53,7 +53,7 @@ class XRayLogger {
 
         const data = {
             level: level.toUpperCase(),
-            payload: JSON.stringify(this.formatPayload(payload)),
+            payload: this.formatPayload(payload),
             trace: this.getStackTrace(),
             project: this.project,
             timestamp: Math.floor(Date.now() / 1000)
