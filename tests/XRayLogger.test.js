@@ -79,11 +79,11 @@ describe('XRayLogger', () => {
         const lastCallBody = JSON.parse(global.fetch.mock.lastCall[1].body);
         expect(lastCallBody).toMatchObject({
             level: 'INFO',
-            payload: testData,
+            payload: JSON.stringify(testData),
             project: 'test-project',
-            timestamp: expect.any(Number)
+            timestamp: expect.any(Number),
+            trace: expect.any(String)
         });
-        expect(typeof lastCallBody.trace).toBe('string');
     });
 
     test('log handles error response', async () => {
