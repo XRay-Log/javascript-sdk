@@ -53,12 +53,13 @@ class XRayLogger {
 
         const data = {
             level: level.toUpperCase(),
-            payload: this.formatPayload(payload),
-            trace: this.getStackTrace(),
+            payload: JSON.stringify(this.formatPayload(payload)),
+            trace: JSON.stringify(this.getStackTrace()),
             project: this.project,
             timestamp: Math.floor(Date.now() / 1000)
         };
-        console.log(data);
+        
+    
         try {
             let fetchFunc;
             if (typeof window !== 'undefined') {
