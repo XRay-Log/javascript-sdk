@@ -3,7 +3,7 @@
 XRay Log JavaScript SDK for logging and monitoring applications. This SDK provides a simple way to log various data types with type preservation in both Node.js and browser environments.
 
 <p align="center">
-<a href="https://github.com/XRay-Log/javascript-sdk/actions"><img src="https://github.com/XRay-Log/javascript-sdk/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/XRay-Log/javascript-sdk/actions"><img src="https://github.com/XRay-Log/javascript-sdk/workflows/Node.js%20CI/badge.svg" alt="Build Status"></a>
 <a href="https://www.npmjs.com/package/@xraylog/javascript-sdk"><img src="https://img.shields.io/npm/dt/@xraylog/javascript-sdk" alt="Total Downloads"></a>
 <a href="https://www.npmjs.com/package/@xraylog/javascript-sdk"><img src="https://img.shields.io/npm/v/@xraylog/javascript-sdk" alt="Latest Stable Version"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/@xraylog/javascript-sdk" alt="License"></a>
